@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class Part4 {
+public class Part4 extends BaseSelenidSet{
 
 
     public SelenideElement ferstName = $x("//input[@id='firstName']");
@@ -23,6 +23,7 @@ public class Part4 {
 
     @Test
     public void filFormTest2(){
+        new BaseSelenidSet().setUp();
         open("https://demoqa.com/automation-practice-form");
         ferstName.setValue("Artem");
         lastName.setValue("Krutikov");
