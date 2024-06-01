@@ -23,7 +23,6 @@ public class Part4 extends BaseSelenidSet{
 
     @Test
     public void filFormTest2(){
-        new BaseSelenidSet().setUp();
         open("https://demoqa.com/automation-practice-form");
         ferstName.setValue("Artem");
         lastName.setValue("Krutikov");
