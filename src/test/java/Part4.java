@@ -28,7 +28,7 @@ public class Part4 extends BaseSelenidSet{
         lastName.setValue("Krutikov");
         email.setValue("stealthy_mzk@mail.ru");
         gender.click();
-        number.setValue("89231331363");
+        number.setValue("89231351363");
         dateOfBirthMain.click();
         dateOfBirthMonth.click();
         dateOfBirthMonthDecember.click();
